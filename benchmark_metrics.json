@@ -1,0 +1,31 @@
+{
+  "n_events": 8000,
+  "n_true_anomalies": 327,
+  "n_alerts_fired": 265,
+  "true_positives": 248,
+  "false_positives": 17,
+  "false_negatives": 79,
+  "true_negatives": 7656,
+  "precision": 0.9358,
+  "recall": 0.7584,
+  "f1_score": 0.8378,
+  "false_positive_rate": 0.0022,
+  "raw_detection_recall_pre_dedup": 0.7584,
+  "detected_but_suppressed_by_fatigue_control": 0,
+  "avg_per_event_latency_ms": 10.4163,
+  "total_runtime_sec": 83.33,
+  "by_anomaly_type": {
+    "pricing_error": {
+      "total": 118,
+      "caught": 53
+    },
+    "supply_delay": {
+      "total": 108,
+      "caught": 101
+    },
+    "fraud": {
+      "total": 101,
+      "caught": 94
+    }
+  }
+}
